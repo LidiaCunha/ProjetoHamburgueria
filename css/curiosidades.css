@@ -1,0 +1,368 @@
+/* DISPOSITIVOS: DESKTOP MIN 1300px*/
+@media screen and (min-device-width: 1300px)
+{
+  
+/*--======= PADRÃO =======-- */
+    #containerIngredientes, #containerTempero, #containerCarne, #painelCarne, #containerAulas{
+        width: 1300px;
+        background-color: antiquewhite;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .descricaoIngrediente span, .descricaoTempero span{
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    #burguerIngredientes span, #textoTempero p{
+        color: white;
+    }
+
+    #burguerIngredientes span{
+       font-family: fantasy;
+       letter-spacing: 1px;
+       font-size: 1.3em;
+    }
+
+    #containerCarne h2{
+        color: black
+    }
+
+/*--====== TEMPERO ======--*/
+    #containerTempero{
+        background-image: url(../imagens/papelParedeTempero.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #textoTempero{
+        width: 250px;
+        height: 300px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .caixaTempero{
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        float: left;
+        margin-right: 30px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px white;
+        margin-bottom: 15px;
+    }
+    
+    .temperoImagem{
+        width: 200px;
+        height: 200px;
+        margin-left: 23px;
+    }
+
+    .tempero, .tempero img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .descricaoTempero{
+       width: inherit;
+       height: 200px;
+    }
+
+/*--====== TRATAMENTO DE CARNES =====--*/
+    #containerCarne{
+        background-color: #ffbd21;
+    }
+
+    #textoCarne{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+/*--====== PAINEL CARNES ======--*/
+    #painelCarne{
+        height: 380px;
+    }
+
+    #carneImagem, #carneImagem img{
+        width: 100%;
+        height: inherit;
+    }
+/*--======= CONTAINER INGREDIENTES ======--*/
+    #containerIngredientes{
+        background-image: url(../imagens/madeira.jpg);
+        background-size: cover;
+    }
+
+    #burguerIngredientes{
+        width: 480px;
+        height: 450px;
+        float: left;
+        margin-right: 10px;
+    }
+    
+    #burguerImagem, #burguerImagem img{
+        width:inherit;
+        height:inherit;
+    }
+
+    #caixaIngredientes{
+        width: 650px;
+        float: left;
+    }
+
+    .ingrediente{
+        width: 615px;
+        background-color: white;
+        box-shadow: 2px 2px 10px white;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .imagemIngredientes{
+        width: 200px;
+        height: 140px;
+        float: left;
+        margin: 10px;
+    }
+    
+    .ingredientesImagem, .ingredientesImagem img{
+        width: 100%;
+        height:100%;
+    }
+
+    .descricaoIngrediente{
+        width: 370px;
+        margin: 10px;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+/*--======= AULAS E RECRUTAMENTO =====--*/
+    #containerAulas{
+        background-color: rgba(0, 0, 0, 0.6);    
+    }
+
+    .textoAulas{
+        width: 380px;
+        background-color: #ffbd21;
+        padding: 10px;
+        box-sizing: border-box;
+        float: left;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    #imagemMontagem{
+        width: 250px;
+        height: 350px;
+        float: left;
+    }
+
+    #aulas {
+        width: 80%;
+        float:left;
+        margin:10px;
+        margin-right: 30px;
+    }
+
+    .estudo{
+        width: 302px;
+        height: 350px;
+        float:left;
+        margin: 5px;
+    }
+    
+    .aulasImagem, .aulasImagem img{
+        width: inherit;
+        height: 340px;
+    }
+}
+
+/* DISPOSITIVOS: MOBILE MIN */
+@media screen and (max-device-width: 780px){
+    
+  /*--====== PADRÃO =======--*/
+    #containerTempero *,  #containerIngredientes *, #containerAulas *{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #containerIngredientes, #containerTempero, #containerCarne, #painelCarne, #containerAulas{
+        width: 100%;
+        background-color: antiquewhite;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .descricaoIngrediente span, .descricaoTempero span{
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    #burguerIngredientes span, #textoTempero p{
+        color: white;
+    }
+
+    #burguerIngredientes span{
+       font-family: fantasy;
+       letter-spacing: 1px;
+       font-size: 1.3em;
+    }
+
+    #containerCarne h2{
+        color: black
+    }
+    
+/*--======= TEMPERO =======--*/
+    #containerTempero{
+        background-image: url(../imagens/papelParedeTempero.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #textoTempero{
+        width: 250px;
+        height: 340px;
+    }
+
+    .caixaTempero{
+        width: 250px;
+        height: 450px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px white;
+        margin-bottom: 20px;
+    }
+    
+    .temperoImagem{
+        width: 200px;
+        height: 200px;
+        margin-left: 23px;
+    }
+
+    .tempero, .tempero img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .descricaoTempero{
+       width: inherit;
+       height: 250px;
+    }
+
+/*--======= TRATAMENTO DE CARNES ======--*/
+    #containerCarne{
+        background-color: #ffbd21;
+    }
+
+    #textoCarne{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+/*--===== PAINEL CARNES ======--*/
+    #painelCarne{
+        height:300px;
+    }
+
+    #carneImagem, #carneImagem img{
+        width: 100%;
+        height: inherit;
+    }
+/*--====== CONTAINER INGREDIENTES =====--*/
+    #containerIngredientes{
+        background-image: url(../imagens/madeira.jpg);
+        background-size: cover;
+    }
+
+    #burguerIngredientes{
+        width: 100%;
+        height: 400px;
+
+    }
+    
+    #burguerImagem, #burguerImagem img{
+        width:inherit;
+        height:inherit;
+    }
+
+    #caixaIngredientes{
+        width: 100%;
+    }
+
+    .ingrediente{
+        width: 95%;
+        background-color: white;
+        box-shadow: 2px 2px 10px white;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+
+    .imagemIngredientes{
+        width: 55%;
+        height: 140px;
+        float: left;
+        margin: 10px;
+    }
+    
+    .ingredientesImagem, .ingredientesImagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .descricaoIngrediente{
+        width: 45%;
+        margin: 10px;
+        float: left;
+        box-sizing: border-box;
+    }
+/*--====== AULAS E RECRUTAMENTO =====--*/
+    #containerAulas{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .textoAulas{
+        width: 95%;
+        background-color: #ffbd21;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    #imagemMontagem{
+        width: 250px;
+        height: 350px;
+        float: left;
+    }
+
+    #montagemImagem, #montagemImagem img{
+        width: inherit;
+        height: inherit;
+    }
+
+    #aulas {
+        width: 80%;
+    }
+
+    .estudo{
+        width: 302px;
+        height: 350px;
+        margin: 5px;
+    }
+    
+    .aulasImagem, .aulasImagem img{
+        width: inherit;
+        height: 340px;
+    }  
+    
+    #botaoCadastro{
+        width: 170px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}

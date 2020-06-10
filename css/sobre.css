@@ -1,0 +1,214 @@
+/* DISPOSITIVOS: DESKTOP MIN 1300px*/
+@media screen and (min-device-width: 1300px){
+    
+    /*------- PADRÃO -----*/
+    #historia, #containerMissaoVisao, #valores, #painel{
+        width: 1300px;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+
+    .missaoVisao h2, #historia h1{
+        color:black;
+    }
+    /*--====== HISTÓRIA ======--*/
+    #historia{
+        background-color: #ffbd21;
+    }
+
+    #historiaConteudo{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /*--===== PAINEL ======--*/
+    #painel{
+        height: 700px;
+        padding-bottom: 0px;
+    }
+
+    #painelImagem, #painelImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+    /*--===== MISSÃO E VISÃO =====--*/
+    #containerMissaoVisao{
+        background-image: url(../imagens/papelParedeMissaoVisao.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .missaoVisao{
+        width: 430px;
+        background-color: #FFBD21;
+        margin-left: 100px;
+        margin-top: 25px;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box; 
+        border-radius: 10px;
+    }
+
+    /*--===== VALORES =====--*/
+    #valores{
+       background-image: url(../imagens/madeira.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    
+    #valor, #responsabilidade,  #inovacao, #paixao, #qualidade {        
+        color: white;
+        font-size: 1.7em;
+        letter-spacing: 1px;
+        font-family: fantasy;
+        float: left;
+        padding:20px;
+        box-sizing: border-box;
+        border: 2px solid white;
+    }
+    
+    #valor, #responsabilidade{
+        height: 350px;
+        width: 500px;
+        background-image: url(../imagens/valor.jpg);
+        background-size: cover;
+    }
+
+     #inovacao, #paixao{
+        height: 350px;
+        width: 340px;
+        background-image: url(../imagens/inovacao.jpg);
+        background-position: right;
+    }
+
+    #responsabilidade{
+        background-image: url(../imagens/responsabilidade.jpg);
+        margin-top: -350px;
+        margin-left: 340px;
+    }
+
+    #paixao{
+        background-image: url(../imagens/paixao.jpg);
+        background-position: bottom;
+        margin-top: -350px;
+    }
+    
+    #qualidade {
+        width: 325px;
+        height: 700px;
+        background-image: url(../imagens/qualidade.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* DISPOSITIVOS: MOBILE MIN */
+@media screen and (max-device-width: 780px) 
+{
+    /*------- PADRÃO -----*/
+    #containerMissaoVisao *{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #historia, #containerMissaoVisao, #valores, #painel{
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+
+    .missaoVisao h2, #historia h1{
+        color:black;
+    }
+
+    /*--======= HISTÓRIA ======--*/
+    #historia{
+        background-color: #ffbd21;
+    }
+
+    #historiaConteudo{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /*--===== PAINEL ======--*/
+    #painel{
+        height: 400px;
+        padding-bottom: 0px;
+    }
+
+    #painelImagem, #painelImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+    /*--===== MISSÃO E VISÃO =====--*/
+    #containerMissaoVisao{
+        background-image: url(../imagens/papelParedeMissaoVisao.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .missaoVisao{
+        width: 95%;
+        background-color: #FFBD21;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box; 
+        border-radius: 10px;
+    }
+
+    /*--====== VALORES =======--*/
+    #valores{
+       background-image: url(../imagens/madeira.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    
+    #valor, #responsabilidade,  #inovacao, #paixao, #qualidade {     
+        width: 100%;  
+        color: white;
+        font-size: 1.7em;
+        letter-spacing: 1px;
+        font-family: fantasy;
+        padding:20px;
+        box-sizing: border-box;
+        border: 7px groove white;
+        margin-bottom: 10px;
+    }
+    
+    #valor, #responsabilidade{
+        height: 350px;
+        background-image: url(../imagens/valor.jpg);
+        background-size: 100% 100%;
+    }
+
+     #inovacao, #paixao{
+        height: 350px;
+        background-image: url(../imagens/inovacao.jpg);
+        background-size: cover;
+    }
+
+    #responsabilidade{
+        background-image: url(../imagens/responsabilidade.jpg);
+    }
+
+    #paixao{
+        background-image: url(../imagens/paixao.jpg);
+        background-position: bottom;
+    }
+    
+    #qualidade {
+        height: 700px;
+        background-image: url(../imagens/qualidade.jpg);
+        background-size: 100% 100%;
+    }
+}   

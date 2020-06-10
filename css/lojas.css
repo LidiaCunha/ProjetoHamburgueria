@@ -1,0 +1,313 @@
+/* DISPOSITIVOS: DESKTOP MIN 1300px*/
+@media screen and (min-device-width: 1300px){
+    
+    /*--======= PADRÃO =======--*/
+    #containerLojas, #textoFoodTruck, #painelFoodTruck, #containerMapa, #containerLogradouro{
+       width: 1300px;
+       background-color: aquamarine;
+       padding-bottom: 20px;
+       box-sizing: border-box;
+    }
+
+    #textoMapa p{
+        color: white;
+        font-weight: bold;
+    }
+
+     .flipper p{
+        text-align: center;
+    }
+
+    #containerLojas h1, #textoFoodTruck h2{
+       color: black;
+    }
+
+    /*--===== LOJAS FISICAS GIRATÓRIO =====--*/
+    #containerLojas{
+        background-color: #ffbd21;
+    }
+
+    #contentLoja{
+        width: 90%;
+        perspective: 500px;
+        -webkit-perspective: 400px;
+    }
+
+    .flipperImagem, .flipperImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+    .flipper {
+      width: 350px;
+      height: 400px;
+      margin-left: 30px;
+      float: left;
+    }
+
+    .inner{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition: transform 1s;
+        -webkit-transition: transform 1s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+
+    .flipperImagem, .flipperImagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .frente, .verso{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .verso {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        background-color: white;
+        padding-top: 70px;
+        box-sizing: border-box;
+    }
+
+
+    .flipper:hover .inner{
+      transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
+    }
+    
+   /*--===== CONTAINER LOGRADOURO =====--*/
+    #containerLogradouro{
+        background-image: url(../imagens/papelParedeEndereco.jpg);
+        background-size: cover;
+    }
+
+    #containerLogradouro p{
+        color: white;
+        font-weight: bold;
+    }
+
+    #mooca, #matriz, #itaquera {
+        width: 400px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color:rgba(0,0,0, 0.8);
+    }
+    
+    #matriz{
+       margin-left: 750px;
+    }
+    
+  /* --====== CONTAINER MAPA =======--*/
+    #containerMapa{
+        background-image: url(../imagens/papelParedeMapa.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #mapa{
+        width: 600px;
+        height: 615px;
+        cursor: pointer;
+        float: left;
+    }
+    
+    #mapaImagem, #mapaImagem img{
+        width: inherit;
+        height:inherit;
+    }
+
+    #textoMapa{
+        width: 360px;
+        float: left;
+        margin: 80px;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+ /*--===== PAINEL FOODTRUCK ====--*/
+    #painelFoodTruck{
+        height: 750px;
+        padding-bottom: 0px;
+        background-color: aqua;
+    }
+
+    #foodTruckImagem, #foodTruckImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+ /*--====== TEXTO FOODTRUCK ======--*/
+    #textoFoodTruck{
+        background-color: #ffbd21;
+    }
+    
+    #textoConteudo{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }   
+}
+
+/* DISPOSITIVOS: MOBILE MIN */
+@media screen and (max-device-width: 780px){
+    
+    /*--===== PADRÃO ======--*/
+    #containerLojas *, #containerMapa *, #containerLogradouro *{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #containerLojas, #textoFoodTruck, #painelFoodTruck, #containerMapa, #containerLogradouro{
+       width: 100%;
+       background-color: aquamarine;
+       padding-bottom: 20px;
+       box-sizing: border-box;
+    }
+
+    #textoMapa p{
+        color: white;
+        font-weight: bold;
+    }
+
+     .flipper p{
+        text-align: center;
+    }
+
+    #containerLojas h1, #textoFoodTruck h2{
+       color: black;
+    }
+
+    /*--=== LOJAS FISICAS GIRATÓRIO ====--*/
+    #containerLojas{
+        background-color: #ffbd21;
+    }
+
+    #contentLoja{
+        width: 90%;
+        perspective: 500px;
+        -webkit-perspective: 400px;
+    }
+
+    .flipperImagem, .flipperImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+    .flipper {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+
+    .inner{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transition: transform 1s;
+        -webkit-transition: transform 1s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+
+    .flipperImagem, .flipperImagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .frente, .verso{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .verso {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        background-color: white;
+        padding-top: 70px;
+        box-sizing: border-box;
+    }
+
+    .flipper:hover .inner{
+      transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
+    }
+    
+   /*--====== CONTAINER LOGRADOURO ====--*/
+    #containerLogradouro{
+        background-image: url(../imagens/papelParedeEndereco.jpg);
+        background-size: cover;
+    }
+
+    #containerLogradouro p{
+        color: white;
+        font-weight: bold;
+    }
+
+    #mooca, #matriz, #itaquera {
+        width: 85%;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color:rgba(0,0,0, 0.8);
+    }
+    
+    #matriz{
+       right: 0;
+    }
+    
+  /* --====== CONTAINER MAPA ======--*/
+    #containerMapa{
+        background-image: url(../imagens/papelParedeMapa.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #mapa{
+        width: 95%;
+        height: 500px;
+        cursor: pointer;
+    }
+    
+    #mapaImagem, #mapaImagem img{
+        width: 100%;
+        height:100%;
+    }
+
+    #textoMapa{
+        width: 95%;
+        background-color: rgba(0,0,0,0.7);
+        margin-bottom: 20px;
+    }
+
+ /*--===== PAINEL FOODTRUCK =====--*/
+    #painelFoodTruck{
+        height: 370px;
+        padding-bottom: 0px;
+        background-color: aqua;
+    }
+
+    #foodTruckImagem, #foodTruckImagem img{
+        width: 100%;
+        height: inherit;
+    }
+
+ /*--====== TEXTO FOODTRUCK =====--*/
+    #textoFoodTruck{
+        background-color: #ffbd21;
+    }
+    
+    #textoConteudo{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    } 
+}

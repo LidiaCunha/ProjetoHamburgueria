@@ -1,0 +1,323 @@
+   /*======== CLASSES GLOBAIS =======*/
+.heightAuto{
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    width: 90%;
+}
+
+h1, h2{
+    font-size: 1.8em;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 100%;
+    height: 40px; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white;
+    min-height: 10px;
+    height: auto;
+}
+
+p{
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+    min-height: 10px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body{
+    background-image:url(../imagens/body.jpg);
+}
+
+a:active {
+    color: white;
+}
+
+a{
+    color:#ffbd21;
+}
+
+#botaoCadastro a:active {
+    color: black;
+}
+
+#botaoCatalogo, #botaoApp, #botaoCadastro, .botaoDetalhes{
+    width: 145px;
+    height: 50px;
+    float: left;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 4px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+    color:#ffbd21;
+    cursor:pointer;
+}
+
+#botaoCatalogo:hover, #botaoApp:hover, #botaoCadastro:hover, .botaoDetalhes:hover{
+    background-color: white;
+}
+
+#botaoCatalogo span, #botaoApp span, #botaoCadastro span, .botaoDetalhes span{
+    font-size: 1.3em;
+    font-family: fantasy;
+}
+
+#botaoCatalogo{
+    width: 170px;
+    margin-right: 30px;
+    margin-left: 35px;
+}
+
+.botaoDetalhes{
+    width: 95px;
+    height: 40px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+/* DISPOSITIVOS: DESKTOP MIN 1300px*/
+@media screen and (min-device-width: 1300px)
+{
+    .container{
+    width: 1300px;
+    height: inherit;
+    }
+    /*======= CABEÇALHO E RODAPÉ =======*/
+    
+    header, footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    header{
+        height: 120px;
+    }
+
+    /*======== RODAPÉ =======*/
+    #containerEndereco{
+        width: 790px;
+        height: 80px;
+        margin-right: 10px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        color: white;
+        float: left;
+        letter-spacing: 1px;
+    }
+
+    #containerApp{
+        width: 260px;
+        height: 80px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    #appImagem, appImagem img{
+        width: 80px;
+        height: 70px;
+        float: left;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+      #containerRedesSociais{
+        display: none;
+    }
+
+    /*========= CABEÇALHO ========*/
+    #logo{
+        width: 200px;
+        height:inherit;
+        float: left;
+        margin-right: 30px;
+    }
+
+    #imagemLogo, #imagemLogo img{
+        width: 200px;
+        height: 120px;
+        cursor: pointer;
+        background-size: cover;
+    }
+
+    /*======= MENU ========*/
+    #menu{
+        width: 600px;
+        height: inherit;
+        float: left;
+        margin-right: 10px;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+    
+    #listaMenu{
+       width: inherit;
+       height: 60px;
+    }
+
+    .itemMenu{
+        width: 95px;
+        height: 35px;
+        float: left;
+        text-align: center;
+        font-size: 1em;
+        font-family: fantasy;
+        padding-top: 10px;
+        margin-right: 5px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+    
+    #containerMenuMobile, #logoMobile{
+        display: none;
+    }
+    /*======= AUTENTICAÇÃO =======*/
+    #autenticacaoCms{
+        width: 450px;
+        height: inherit;
+        float: left;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+    .containerCms{
+        white-space: pre-line;
+        width: 200px;
+        height: 70px;
+        float: left;
+        margin-right: 5px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    input[type=text]{
+        width: 190px;
+    }
+
+    #containerBotao{
+        width: 38px;
+        height: 30px;
+        float: left;
+        margin-top: 25px;
+    }
+
+    #containerBotao input[type=submit] {
+        height: inherit;
+        width: inherit;
+    }
+    
+}
+
+/* DISPOSITIVOS: MOBILE MIN */
+@media screen and (max-device-width: 780px)
+{
+      .container{
+        width: 100%;
+        height: inherit;
+    }
+    
+    /*====== CABEÇALHO E RODAPÉ ======*/
+    header, footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+    
+    header{
+        height: 120px;
+    }
+
+    /*======== MENU =========*/
+    #containerMenuMobile{
+        width: 100px;
+        height: inherit;
+        position: fixed;
+        z-index: 999;
+    }
+
+
+    #iconeMenu{
+        width: 80px;
+        height: 80px;
+        float: left;
+        background-image: url(../imagens/menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 999;
+    }
+    
+    #menuMobile{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        z-index: 999;
+        display: none; 
+        position:fixed; 
+        text-align: center;
+        font-size: 1.5em;
+        font-family: fantasy;
+    }
+    
+    .itemMenuMobile{
+       width: 100%;
+       height: 40px;
+       margin-top: 20px;
+    }
+    
+    #menu, #logo, #autenticacaoCms{
+        display: none;
+    }
+    
+    #logoMobile{
+        width: 200px;
+        height: inherit;
+        margin: 0px auto;
+    }
+
+    #imagemLogoMobile, #imagemLogoMobile img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*======== RODAPÉ =======*/
+    #containerRedesSociais{
+        width: 240px;
+        height: 70px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .redesSociais{
+        width: 67px;
+        height: 60px;
+        margin-left: 10px;
+        float: left;
+    }
+    
+    .imagemSociais, .imagemSociais img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #botaoCatalogo, #containerEndereco, #containerApp{
+        display: none;
+    }
+}

@@ -1,0 +1,132 @@
+/* DISPOSITIVOS: DESKTOP MIN 1300px*/
+@media screen and (min-device-width: 1300px){
+   /*--====== PADRÃO ======--*/
+    #contato{
+        width: 1300px;
+        background-image: url(../imagens/papelParedeContatos.jpg);
+        background-size: cover;
+    }
+
+    #contato h1{
+        text-align: center;
+    }
+
+    #contato span {
+        font-size: 1.4em;
+        color: white;
+        font-weight: bold;
+    }
+
+    .larguraTotal, .larguraParcial, #caixaTexto{
+        width: 90%;
+        height: 80px;
+        float: left;
+        margin-bottom: 20px;
+        margin-left: 55px;
+    }
+
+    .larguraParcial {
+        width: 42%;
+        margin-right: 14px;
+    }
+
+      #botaoContato{
+        width: 80px;
+        height: 30px;
+        float: right;
+    }
+    
+    /*--====== FORMATAÇÕES INPUTS =======--*/
+    .larguraTotal input[type=text], .larguraParcial input[type=text],
+    .larguraTotal input[type=email], .larguraTotal input[type=url], textarea{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        border: 4px solid white; 
+        padding: 20px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    textarea{
+        height: 280px;
+        resize: none;
+        font-size: 1.5em;
+    }
+
+    input[type=radio]{
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #caixaTexto{
+        height: 300px;
+    }  
+}
+
+/* DISPOSITIVOS: MOBILE MIN */
+@media screen and (max-device-width: 780px){
+   /*--====== PADRÃO =======--*/
+    #contato *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #contato{
+        width: 100%;
+        background-image: url(../imagens/papelParedeContatos.jpg);
+        background-size: cover;
+    }
+
+    #contato h1{
+        text-align: center;
+    }
+
+    #contato span {
+        font-size: 1.4em;
+        color: white;
+        font-weight: bold;
+    }
+
+    .larguraTotal, .larguraTotalMobile, #caixaTexto{
+        width: 90%;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    
+    #botaoContato{
+        width: 80px;
+        height: 30px;
+    }
+    
+    /*--====== FORMATAÇÕES INPUTS ======--*/
+    .larguraTotal input[type=text], .larguraParcial input[type=text], .larguraTotal input[type=email], .larguraTotal input[type=url], textarea {
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        border: 4px solid white; 
+        padding: 20px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    textarea{
+        height: 120px;
+        resize: none;
+        font-size: 1.5em;
+    }
+
+    input[type=radio]{
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #caixaTexto{
+        min-height: 150px;
+        height: auto;
+    } 
+}

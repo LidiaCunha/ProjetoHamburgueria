@@ -41,7 +41,8 @@
                             </figure>
                         </div>
                         <div class="verso">
-                            <p>Hoje, nossa matriz em Itaim Bibi comporta cerca de 80% do estoque total das hamburguerias Honker Burguer e é lá que realizamos a bancada de degustação dos lançamentos e sugestões.</p>
+                            <p>Hoje, nossa matriz em Itaim Bibi comporta cerca de 80% do estoque total das hamburguerias Honker Burguer 
+                            e é lá que realizamos a bancada de degustação dos lançamentos e sugestões.</p>
                         </div>
                     </div>
                 </div>
@@ -64,35 +65,38 @@
         <div id="containerLogradouro" class="center heightAuto">
             <div class="content center heightAuto">
                 <h2>ENDEREÇOS MATRIZ E FILIAIS</h2>
-                <div id="mooca" class="heightAuto">
+                <div class="esquerdo" class="heightAuto">
+                   <p> Av. Luis Carlos Berrini, 666 - Itaim Bibi, São Paulo - SP, 04571-060<br> 
+                   Telefone: (11) 2597-8410</p> 
+                </div>
+                <div class="direito" class="heightAuto">
                     <p> R. Dr. João Batista de Lacerda, 753 - Parque da Mooca, São Paulo - SP, 03177-010<br>
                     Telefone: (11) 2076-8811</p>
                 </div>
-                 <div id="matriz" class="heightAuto">
-                   <p> Av. Luis Carlos Berrini, 666 - Itaim Bibi, São Paulo - SP, 04571-060<br> 
-                   Telefone: (11) 2597-8410
-                   </p> 
-                </div>
-                <div id="itaquera" class="heightAuto" >
+                <div class="esquerdo" class="heightAuto">
                     <p> R. Fontoura Xavier, 1090 - Itaquera, São Paulo - SP, 08295-300<br>
-                    Telefone: (11) 99408-8118</p>
+                    Telefone: (11) 2076-8811</p>
+                </div>
+                <div class="direito" class="heightAuto">
+                    <p> Tatuapé, São Paulo - SP, 03081-012<br>
+                    Telefone: (11) 1125-8240</p>
                 </div>
             </div>
         </div>
-<!--===== CONTAINER MAPA ======--> 
-        <div id="containerMapa" class="center heightAuto"> 
+<!--===== CONTAINER FILIAL PRINCIPAL ======--> 
+        <div id="containerFilialPrincipal" class="center heightAuto"> 
             <div class="content center heightAuto">
                 <h2>ENCONTRE-NOS</h2>
-                <div id="textoMapa" class="heightAuto">
-                    <p>Caro apreciador de carne de verdade, neste mapa você encontra-rá nossa loja de Tatuapé, é a cidade que atualmente temos nossa maior filial, conhecida pelo nosso hambúrguer especial "Exagerado"
+                <div id="textoPrincipal" class="heightAuto">
+                    <p>Se você quiser novidade, Tatuapé é a cidade que atualmente temos nossa maior filial, conhecida pelo nosso hambúrguer especial "Exagerado"
                     originalidade da marca hamburgueria Hunker Burguer.<br>
-                    Caso o local não seja o mais acessível procure os estabelecimentos mais próximos a sua residência e fique atento aos lançamentos que ocorrem de forma individual nas lojas.
+                    Caso o local não seja o mais acessível procure os estabelecimentos mais próximos a sua residência e fique atento aos lançamentos que ocorrem nas lojas.
                     </p>
                 </div>
-                <div id="mapa">
+                <div id="principal">
                     <a href="https://www.google.com/maps/search/hamburgueria+tatuape/@-23.5550064,-46.9555413,9z">
-                         <figure id="mapaImagem">
-                            <img src="imagens/mapa.PNG" alt="Google Maps" title="Google Maps">
+                         <figure id="principalImagem">
+                            <img src="imagens/mapa.PNG" alt="Tatuapé" title="Tatuapé">
                         </figure>
                     </a>
                 </div>
@@ -119,6 +123,5 @@
         <?php
             include_once("MODULOS/footer.php");
         ?>
-          <script src="js/cascata.js"></script>
     </body>
 </html>

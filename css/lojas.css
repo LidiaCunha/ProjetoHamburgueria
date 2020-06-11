@@ -2,14 +2,14 @@
 @media screen and (min-device-width: 1300px){
     
     /*--======= PADRÃO =======--*/
-    #containerLojas, #textoFoodTruck, #painelFoodTruck, #containerMapa, #containerLogradouro{
+    #containerLojas, #textoFoodTruck, #painelFoodTruck, #containerFilialPrincipal, #containerLogradouro{
        width: 1300px;
        background-color: aquamarine;
        padding-bottom: 20px;
        box-sizing: border-box;
     }
 
-    #textoMapa p{
+    #textoPrincipal p{
         color: white;
         font-weight: bold;
     }
@@ -93,38 +93,57 @@
         font-weight: bold;
     }
 
-    #mooca, #matriz, #itaquera {
+    .direito, .esquerdo {
         width: 400px;
-        margin-left: 30px;
+        margin-left: 750px;
         margin-top: 20px;
         border-radius: 10px;
         background-color:rgba(0,0,0, 0.8);
+        animation: cascataDireita 7s infinite; 
+        animation-delay: 3s;
     }
     
-    #matriz{
-       margin-left: 750px;
+    .esquerdo{
+       margin-left: 10px;
+       animation: cascataEsquerda 7s infinite;
+       animation-delay: 5s;
     }
     
-  /* --====== CONTAINER MAPA =======--*/
-    #containerMapa{
+    @keyframes cascataEsquerda {
+        from{ transform: translateX(0%); opacity: 1;}
+        to{ transform: translateX(190%); opacity: 0;}
+    }
+
+    @keyframes cascataDireita {
+        from{ transform: translateX(0%); opacity: 1;}
+        to{ transform: translateX(-160%); opacity: 0;}
+    }
+
+    @keyframes desaparecer {
+        from{ opacity:1;}
+        to{ opacity: 0;}
+    }
+
+  /* --====== CONTAINER FILIAL PRINCIPAL =======--*/
+    #containerFilialPrincipal{
         background-image: url(../imagens/papelParedeMapa.PNG);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
-    #mapa{
+    #principal{
         width: 600px;
         height: 615px;
         cursor: pointer;
         float: left;
     }
     
-    #mapaImagem, #mapaImagem img{
+    #principalImagem, #principalImagem img{
         width: inherit;
         height:inherit;
     }
 
-    #textoMapa{
+    #textoPrincipal{
         width: 360px;
         float: left;
         margin: 80px;
@@ -171,7 +190,7 @@
        box-sizing: border-box;
     }
 
-    #textoMapa p{
+    #textoPrincipal p{
         color: white;
         font-weight: bold;
     }
@@ -253,39 +272,61 @@
         font-weight: bold;
     }
 
-    #mooca, #matriz, #itaquera {
+    .direito, .esquerdo {
         width: 85%;
+        margin-left: 750px;
         margin-top: 20px;
         border-radius: 10px;
         background-color:rgba(0,0,0, 0.8);
+        animation: cascataDireita 7s infinite; 
+        animation-delay: 3s;
     }
     
-    #matriz{
-       right: 0;
+    .esquerdo{
+       margin-left: 10px;
+       animation: cascataEsquerda 7s infinite;
+       animation-delay: 5s;
     }
     
-  /* --====== CONTAINER MAPA ======--*/
-    #containerMapa{
+    @keyframes cascataEsquerda {
+        from{ transform: translateX(0%); opacity: 1;}
+        to{ transform: translateX(190%); opacity: 0;}
+    }
+
+    @keyframes cascataDireita {
+        from{ transform: translateX(0%); opacity: 1;}
+        to{ transform: translateX(-160%); opacity: 0;}
+    }
+
+    @keyframes desaparecer {
+        from{ opacity:1;}
+        to{ opacity: 0;}
+    }
+    
+  /* --====== CONTAINER FILIAL PRINCIPAL ======--*/
+    #containerFilialPrincipal{
         background-image: url(../imagens/papelParedeMapa.PNG);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
-    #mapa{
+
+    #principal{
         width: 95%;
         height: 500px;
         cursor: pointer;
+        float: left;
     }
-    
-    #mapaImagem, #mapaImagem img{
+
+    #principalImagem, #principalImagem img{
         width: 100%;
         height:100%;
     }
 
-    #textoMapa{
+    #textoPrincipal{
         width: 95%;
+        float: left;
+        margin-top: 20px;
         background-color: rgba(0,0,0,0.7);
-        margin-bottom: 20px;
     }
 
  /*--===== PAINEL FOODTRUCK =====--*/

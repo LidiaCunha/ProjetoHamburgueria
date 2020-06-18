@@ -64,7 +64,6 @@
 <!--====== CONTAINER LOGRADOURO ====-->
         <div id="containerLogradouro" class="center heightAuto">
             <div class="content center heightAuto">
-                <h2>ENDEREÇOS MATRIZ E FILIAIS</h2>
                 <div class="esquerdo" class="heightAuto">
                    <p> Av. Luis Carlos Berrini, 666 - Itaim Bibi, São Paulo - SP, 04571-060<br> 
                    Telefone: (11) 2597-8410</p> 
@@ -86,7 +85,6 @@
 <!--===== CONTAINER FILIAL PRINCIPAL ======--> 
         <div id="containerFilialPrincipal" class="center heightAuto"> 
             <div class="content center heightAuto">
-                <h2>ENCONTRE-NOS</h2>
                 <div id="textoPrincipal" class="heightAuto">
                     <p>Se você quiser novidade, Tatuapé é a cidade que atualmente temos nossa maior filial, conhecida pelo nosso hambúrguer especial "Exagerado"
                     originalidade da marca hamburgueria Hunker Burguer.<br>

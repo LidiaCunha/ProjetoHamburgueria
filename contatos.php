@@ -130,7 +130,7 @@ if(isset($_POST['btnSalvar']))
 <!--====== MENSAGEM ======-->
                 <div id="caixaTexto">
                     <span>Mensagem:</span>
-                    <textarea name="txtMensagem" maxlength="150" rows="5" cols="5" placeholder="Insira sua profissão" required></textarea>
+                    <textarea name="txtMensagem" maxlength="300" rows="5" cols="5" placeholder="Insira sua profissão" required></textarea>
                 </div>
 <!--====== BOTÃO =======-->
                 <div id="botaoContato">
